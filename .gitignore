@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Directory ignore (including nested directories)
+**/__pycache__/
+**/*.pyc
+
+# Ignore .env files (including in nested directories)
+**/.env
+
+# Dependency directories
+env/
+venv/
+env.bak/
+venv.bak/
+
+# Virtualenv and pipenv files
+.venv
+.env
+.Python
+pipfile.lock
+pipfile
+
+# VS Code related files
+.vscode/
+*.code-workspace
+.settings.json
+
+# Ignore .egg-info directories (including in nested directories)
+**/*.egg-info/
+
+# Django project files
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Miscellaneous
+*.pyo
+*.bak
+*.orig
+*.tmp
+*.csv
+*.xlsx
+*.db
